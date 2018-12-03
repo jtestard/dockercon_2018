@@ -1,0 +1,10 @@
+apiVersion: "nuclio.io/v1"
+kind: Function
+metadata:
+  name: simple-auth
+  namespace: nuclio
+spec:
+  runtime: golang
+  handler: main:Handler
+  minReplicas: 0
+  maxReplicas: 10

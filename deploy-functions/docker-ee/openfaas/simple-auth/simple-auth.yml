@@ -1,0 +1,8 @@
+provider:
+  name: faas
+
+functions:
+  simple-auth:
+    lang: go
+    handler: ./simple-auth
+    image: julestestard/simpleauth

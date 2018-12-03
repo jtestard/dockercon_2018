@@ -1,0 +1,12 @@
+{
+    "specversion" : "0.1",
+    "type" : "com.example.authLogin",
+    "source" : "/mycontext",
+    "id" : "C234-1234-1234",
+    "time" : "2018-04-05T17:31:00Z",
+    "contenttype" : "application/json",
+    "data" : {
+        "user" : "alice",
+        "authToken" : "0af23ed13"
+    }
+}
